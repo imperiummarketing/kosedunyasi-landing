@@ -104,7 +104,9 @@ body::before {
 
 .sticky-whatsapp {
   position: fixed;
-  right: max(14px, calc((100vw - var(--page-width)) / 2 + 14px));
+  left: 0;
+  right: 0;
+  margin: 0 auto;
   bottom: max(12px, env(safe-area-inset-bottom));
   z-index: 60;
   display: flex;
@@ -117,7 +119,7 @@ body::before {
   padding: 9px 16px 9px 10px;
   border-radius: 999px;
   isolation: isolate;
-  background: linear-gradient(180deg, #fff8e8 0%, #f0d39a 100%);
+  background: linear-gradient(180deg, #fffef5 0%, #f5d460 50%, #e8b830 100%);
   color: #14371f;
   box-shadow:
     0 16px 36px rgba(0, 0, 0, 0.42),
@@ -132,6 +134,7 @@ body::before {
   border: 1px solid rgba(209, 161, 95, 0.88);
   -webkit-tap-highlight-color: transparent;
   transition: transform 140ms ease, background-color 140ms ease, box-shadow 140ms ease;
+  animation: cta-bounce 1.2s ease-in-out infinite;
 }
 
 .sticky-whatsapp::before {
@@ -188,8 +191,9 @@ body::before {
 }
 
 .sticky-whatsapp:hover {
+  animation-play-state: paused;
   transform: translateY(-1px);
-  background: linear-gradient(180deg, #fffdf2 0%, #f4dba6 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #f7da6a 50%, #edbf35 100%);
   box-shadow:
     0 18px 40px rgba(0, 0, 0, 0.46),
     0 0 0 2px rgba(255, 248, 232, 0.24),
@@ -247,6 +251,11 @@ body::before {
 
 .policy-content--center {
   text-align: center;
+}
+
+@keyframes cta-bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
 }
 
 @keyframes cta-halo {
