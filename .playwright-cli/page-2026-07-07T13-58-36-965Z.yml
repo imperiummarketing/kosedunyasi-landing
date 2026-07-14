@@ -1,0 +1,64 @@
+- generic [active] [ref=e1]:
+  - link "İçeriğe geç" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=e3]:
+    - main "Köşe Dünyası köşe koltuk tanıtımı" [ref=e4]:
+      - generic [ref=e5]:
+        - paragraph [ref=e6]: Köşe Dünyası
+        - heading "Salon ölçünüze uygun köşe koltuk modelini birlikte netleştirelim." [level=1] [ref=e7]
+        - paragraph [ref=e8]: Ölçünüzü, köşe yönünüzü ve kullanım beklentinizi paylaşın; size uygun modeli, kumaşı, rengi ve üretim detaylarını WhatsApp üzerinden konuşalım.
+        - list "Öne çıkan hizmetler" [ref=e9]:
+          - listitem [ref=e10]: Özel ölçü planlama
+          - listitem [ref=e11]: Kumaş ve renk seçimi
+          - listitem [ref=e12]: Siteler fabrika satış mağazası
+        - link "Hemen WhatsApp’a yaz" [ref=e13] [cursor=pointer]:
+          - /url: https://wa.me/905?text=Merhaba%2C%20K%C3%B6%C5%9Fe%20D%C3%BCnyas%C4%B1%20kampanya%20sayfas%C4%B1ndan%20geldim.%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%C3%BC%20g%C3%B6nderip%20bana%20uygun%20k%C3%B6%C5%9Fe%20koltuk%20modelleri%20ve%20fiyat%20bilgisi%20almak%20istiyorum.%0A%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%3A%0A%20%20%20%20Renk%20tercihim%3A%0A%20%20%20%20Sa%C4%9F%20%2F%20sol%20k%C3%B6%C5%9Fe%3A%0A%20%20%20%20Yatakl%C4%B1%20%2F%20sand%C4%B1kl%C4%B1%20olsun%20mu%3A%0A%20%20%20%20Bulundu%C4%9Fum%20%C5%9Fehir%3A
+          - text: Hemen WhatsApp’a yaz
+      - generic "Köşe Dünyası ürün ve mağaza görselleri" [ref=e15]:
+        - region "Özel ölçü üretim ve köşe yönü seçimi" [ref=e16]:
+          - img "Özel ölçülerde üretilen Elite ve Felix köşe koltuk modelleri; leke tutmaz kumaş, robot süpürgeye uygun ayak ve köşe yönü seçimi" [ref=e17]
+        - region "Siteler fabrika satış mağazası" [ref=e18]:
+          - img "Köşe Dünyası’nın Siteler’deki fabrika satış mağazası ve mağaza içi köşe koltuk teşhiri" [ref=e19]
+        - region "Dark ve Mayfair modelleri" [ref=e20]:
+          - img "Dark ve Mayfair köşe koltuk modellerinde sert ve yumuşak oturum seçenekleri, katmanlı İşbir sünger konforu" [ref=e21]
+        - region "Türe ve Bohem modelleri" [ref=e22]:
+          - img "Türe ve Bohem köşe koltuk modellerinde yatak mekanizması, fırınlanmış gürgen iskelet ve dayanıklı yapı detayları" [ref=e23]
+        - region "Lazzoni ve TV köşe koltuğu" [ref=e24]:
+          - img "Lazzoni ve TV köşe koltuğu modellerinde yatak olabilen mekanizma, ayarlanabilir başlık, dahili ses sistemi ve bardak tutucu detayları" [ref=e25]
+        - region "Gerçek müşteri geri dönüşleri" [ref=e26]:
+          - img "Köşe Dünyası müşterilerinden gerçek yorumlar, teslimat sonrası fotoğraflar ve memnuniyet mesajları" [ref=e27]
+        - region "Mağaza konumu ve ziyaret bilgisi" [ref=e28]:
+          - img "Köşe Dünyası’nın Siteler’deki fabrika satış mağazası konumu ve showroom ziyaret daveti" [ref=e29]
+      - region "WhatsApp ile ölçü paylaşımı" [ref=e30]:
+        - heading "Modeli netleştirmek için ölçünüz yeterli." [level=2] [ref=e31]
+        - paragraph [ref=e32]: Salon ölçünüzü, sağ veya sol köşe tercihinizi ve beğendiğiniz modeli gönderin; ekip size uygun seçenekleri hızlıca paylaşsın.
+        - link "Hemen WhatsApp’a yaz" [ref=e33] [cursor=pointer]:
+          - /url: https://wa.me/905?text=Merhaba%2C%20K%C3%B6%C5%9Fe%20D%C3%BCnyas%C4%B1%20kampanya%20sayfas%C4%B1ndan%20geldim.%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%C3%BC%20g%C3%B6nderip%20bana%20uygun%20k%C3%B6%C5%9Fe%20koltuk%20modelleri%20ve%20fiyat%20bilgisi%20almak%20istiyorum.%0A%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%3A%0A%20%20%20%20Renk%20tercihim%3A%0A%20%20%20%20Sa%C4%9F%20%2F%20sol%20k%C3%B6%C5%9Fe%3A%0A%20%20%20%20Yatakl%C4%B1%20%2F%20sand%C4%B1kl%C4%B1%20olsun%20mu%3A%0A%20%20%20%20Bulundu%C4%9Fum%20%C5%9Fehir%3A
+          - text: Hemen WhatsApp’a yaz
+    - contentinfo "Sayfa alt bilgisi" [ref=e35]:
+      - paragraph [ref=e36]: Köşe Dünyası
+      - paragraph [ref=e37]: Özel ölçü köşe koltuk modelleri, kumaş seçenekleri ve showroom ziyareti için Köşe Dünyası ile iletişime geçebilirsiniz.
+      - navigation "Yasal bağlantılar" [ref=e38]:
+        - link "Gizlilik Politikası" [ref=e39] [cursor=pointer]:
+          - /url: /privacy.html
+        - link "Çerez Politikası" [ref=e40] [cursor=pointer]:
+          - /url: /cookies.html
+        - link "Ana Site" [ref=e41] [cursor=pointer]:
+          - /url: https://kosedunyasi.com
+  - link "Hemen WhatsApp’a yaz" [ref=e42] [cursor=pointer]:
+    - /url: https://wa.me/905?text=Merhaba%2C%20K%C3%B6%C5%9Fe%20D%C3%BCnyas%C4%B1%20kampanya%20sayfas%C4%B1ndan%20geldim.%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%C3%BC%20g%C3%B6nderip%20bana%20uygun%20k%C3%B6%C5%9Fe%20koltuk%20modelleri%20ve%20fiyat%20bilgisi%20almak%20istiyorum.%0A%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%3A%0A%20%20%20%20Renk%20tercihim%3A%0A%20%20%20%20Sa%C4%9F%20%2F%20sol%20k%C3%B6%C5%9Fe%3A%0A%20%20%20%20Yatakl%C4%B1%20%2F%20sand%C4%B1kl%C4%B1%20olsun%20mu%3A%0A%20%20%20%20Bulundu%C4%9Fum%20%C5%9Fehir%3A
+    - generic [ref=e44]: Hemen WhatsApp’a yaz
+  - dialog "Çerez tercihleri" [ref=e45]:
+    - generic [ref=e46]:
+      - generic [ref=e47]: Çerez tercihi
+      - generic [ref=e48]: Reklam performansı ve dönüşüm ölçümü için çerez kullanıyoruz. Tercihini şimdi kaydedebilirsin.
+      - navigation "Yasal bağlantılar" [ref=e49]:
+        - link "Gizlilik Politikası" [ref=e50] [cursor=pointer]:
+          - /url: /privacy.html
+        - link "Çerez Politikası" [ref=e51] [cursor=pointer]:
+          - /url: /cookies.html
+        - link "Ana Site" [ref=e52] [cursor=pointer]:
+          - /url: https://kosedunyasi.com
+    - generic [ref=e53]:
+      - button "Reddet" [ref=e54] [cursor=pointer]
+      - button "Kabul Et" [ref=e55] [cursor=pointer]

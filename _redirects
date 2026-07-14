@@ -1,0 +1,6 @@
+# Cloudflare Pages redirects
+/index.html / 301
+
+# Optional legacy paths. Edit/remove as needed.
+/landing / 301
+/whatsapp / 301

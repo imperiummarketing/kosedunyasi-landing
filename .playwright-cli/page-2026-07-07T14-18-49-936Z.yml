@@ -1,0 +1,20 @@
+- generic [active] [ref=e1]:
+  - main "Köşe Dünyası köşe koltuk tanıtımı" [ref=e3]:
+    - generic "Köşe Dünyası ürün ve mağaza görselleri" [ref=e4]:
+      - region "Özel ölçü üretim ve köşe yönü seçimi" [ref=e5]:
+        - img "Özel ölçülerde üretilen Elite ve Felix köşe koltuk modelleri; leke tutmaz kumaş, robot süpürgeye uygun ayak ve köşe yönü seçimi"
+      - region "Siteler fabrika satış mağazası" [ref=e6]:
+        - img "Köşe Dünyası’nın Siteler’deki fabrika satış mağazası ve mağaza içi köşe koltuk teşhiri"
+      - region "Dark ve Mayfair modelleri" [ref=e7]:
+        - img "Dark ve Mayfair köşe koltuk modellerinde sert ve yumuşak oturum seçenekleri, katmanlı İşbir sünger konforu"
+      - region "Türe ve Bohem modelleri" [ref=e8]:
+        - img "Türe ve Bohem köşe koltuk modellerinde yatak mekanizması, fırınlanmış gürgen iskelet ve dayanıklı yapı detayları"
+      - region "Lazzoni ve TV köşe koltuğu" [ref=e9]:
+        - img "Lazzoni ve TV köşe koltuğu modellerinde yatak olabilen mekanizma, ayarlanabilir başlık, dahili ses sistemi ve bardak tutucu detayları"
+      - region "Gerçek müşteri geri dönüşleri" [ref=e10]:
+        - img "Köşe Dünyası müşterilerinden gerçek yorumlar, teslimat sonrası fotoğraflar ve memnuniyet mesajları"
+      - region "Mağaza konumu ve ziyaret bilgisi" [ref=e11]:
+        - img "Köşe Dünyası’nın Siteler’deki fabrika satış mağazası konumu ve showroom ziyaret daveti"
+  - link "WhatsApp’tan ölçü danış" [ref=e12] [cursor=pointer]:
+    - /url: https://wa.me/905357830014?text=Merhaba%2C%20K%C3%B6%C5%9Fe%20D%C3%BCnyas%C4%B1%20tan%C4%B1t%C4%B1m%20sayfas%C4%B1ndan%20geldim.%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%C3%BC%20payla%C5%9Farak%20bana%20uygun%20k%C3%B6%C5%9Fe%20koltuk%20modelleri%2C%20kuma%C5%9F%20se%C3%A7enekleri%20ve%20fiyat%20bilgisi%20almak%20istiyorum.%0A%0A%20%20%20%20Salon%20%C3%B6l%C3%A7%C3%BCm%3A%0A%20%20%20%20Renk%20tercihim%3A%0A%20%20%20%20Sa%C4%9F%20%2F%20sol%20k%C3%B6%C5%9Fe%3A%0A%20%20%20%20Yatakl%C4%B1%20%2F%20sand%C4%B1kl%C4%B1%20olsun%20mu%3A%0A%20%20%20%20Bulundu%C4%9Fum%20%C5%9Fehir%3A
+    - generic [ref=e14]: WhatsApp’tan ölçü danış
