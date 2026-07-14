@@ -11,14 +11,7 @@ window.KD_CONFIG = {
 
   whatsapp: {
     phone: "905357830014",
-    message: `Merhaba, Köşe Dünyası tanıtım sayfasından geldim.
-    Salon ölçümü paylaşarak bana uygun köşe koltuk modelleri, kumaş seçenekleri ve fiyat bilgisi almak istiyorum.
-
-    Salon ölçüm:
-    Renk tercihim:
-    Sağ / sol köşe:
-    Yataklı / sandıklı olsun mu:
-    Bulunduğum şehir:`,
+    message: "Merhaba, salon ölçülerimi paylaşarak köşe koltuk hakkında bilgi almak istiyorum.",
   },
 
   tracking: {
