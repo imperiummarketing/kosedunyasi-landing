@@ -15,11 +15,8 @@ window.KD_CONFIG = {
   },
 
   tracking: {
-    /** Recommended: manage GA4, Google Ads and Meta Pixel from GTM. */
-    gtmId: "GTM-XXXXXXX",
-
-    /** Optional direct installs. Leave empty if using GTM only. */
-    ga4MeasurementId: "",
+    gtmId: "GTM-T284RHXS",
+    ga4MeasurementId: "G-495921405",
     metaPixelId: "",
 
     /** Optional direct Google Ads conversion. Example send_to becomes AW-XXXXXXX/YYYYYYY */
