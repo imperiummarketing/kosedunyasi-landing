@@ -22,14 +22,8 @@
         createWhatsAppLabel(buttonText)
       );
       button.setAttribute('href', url);
-      button.addEventListener('click', function () {
-        if (window.KD_TRACKING) {
-          window.KD_TRACKING.trackWhatsAppClick({
-            cta_text: button.dataset.ctaText || buttonText,
-            cta_location: button.getAttribute('data-cta-location') || 'sticky_bottom'
-          });
-        }
-      });
+      // ponytail: tracking handled by inline script in index.html (single dataLayer push + Meta CAPI)
+      // KD_TRACKING.trackWhatsAppClick would cause a duplicate dataLayer.push on the same click
     });
   }
 
