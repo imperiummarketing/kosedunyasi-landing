@@ -26,6 +26,9 @@
   <link rel="icon" href="/assets/icons/favicon.png" type="image/png">
   <link rel="preload" as="image" href="/assets/banners/banner_1.webp" fetchpriority="high">
   <link rel="stylesheet" href="/css/styles.css">
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-T284RHXS');</script>
+  <!-- End Google Tag Manager -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -134,10 +137,40 @@
     </main>
   </div>
 
-  <a class="sticky-whatsapp" data-whatsapp-button data-cta-location="sticky_bottom" href="#" target="_blank" rel="noopener noreferrer">WhatsApp’tan iletişime geçin</a>
+  <a id="whatsapp-info-cta" class="sticky-whatsapp" data-whatsapp-button data-cta-location="sticky_bottom" href="#" target="_blank" rel="noopener noreferrer">WhatsApp’tan iletişime geçin</a>
 
   <script src="/js/config.js"></script>
   <script src="/js/tracking.js"></script>
   <script src="/js/main.js"></script>
+  <script>
+    (() => {
+      "use strict";
+      window.dataLayer = window.dataLayer || [];
+      const whatsappButton = document.getElementById("whatsapp-info-cta");
+      if (!whatsappButton) {
+        console.warn('[Tracking] "#whatsapp-info-cta" elementi bulunamadı.');
+        return;
+      }
+      let lastTrackedAt = 0;
+      function createEventId() {
+        if (window.crypto && typeof window.crypto.randomUUID === "function") {
+          return window.crypto.randomUUID();
+        }
+        return ["wa", Date.now(), Math.random().toString(36).slice(2, 10)].join("_");
+      }
+      whatsappButton.addEventListener("click", () => {
+        const now = Date.now();
+        if (now - lastTrackedAt < 1500) return;
+        lastTrackedAt = now;
+        window.dataLayer.push({
+          event: "whatsapp_click",
+          event_id: createEventId(),
+          contact_channel: "whatsapp",
+          cta_name: "whatsapp_bilgi_al",
+          site_area: "magazamiz_landing",
+        });
+      }, { capture: true });
+    })();
+  </script>
 </body>
 </html>

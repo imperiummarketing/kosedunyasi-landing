@@ -15,8 +15,8 @@ window.KD_CONFIG = {
   },
 
   tracking: {
-    gtmId: "GTM-T284RHXS",
-    ga4MeasurementId: "G-495921405",
+    gtmId: "",
+    ga4MeasurementId: "",
     metaPixelId: "",
 
     /** Optional direct Google Ads conversion. Example send_to becomes AW-XXXXXXX/YYYYYYY */
