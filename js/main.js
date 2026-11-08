@@ -6,7 +6,7 @@
   var PHONE='905357830014'; // 0535 783 00 14
   var WA_TEXT='Merhabalar, köşe koltuk mobilyalarınız hakkında detaylı bilgi alabilir miyim?';
   document.getElementById('whatsapp-info-cta').href='https://wa.me/'+PHONE+'?text='+encodeURIComponent(WA_TEXT);
-  document.getElementById('call').href='tel:+'+PHONE;
+  var callEl=document.getElementById('call');if(callEl)callEl.href='tel:+'+PHONE;
   if(CAL||STATIC) document.getElementById('dock').style.display='none';
 
   // ---- Dönüşüm takibi (canlı siteyle birebir aynı olay yapısı; GTM tetikleyicileri bunu dinler) ----
